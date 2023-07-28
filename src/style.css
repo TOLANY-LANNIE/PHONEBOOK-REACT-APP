@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+.container{
+    margin: 1rem;
+    text-align: center;
+}
+.nav{
+    background-color: #0000CD;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    gap: 2rem;
+    padding: 0 1rem;
+    align-items: stretch;
+}
+.app-title{
+    font-size: 1.5rem;
+}
+.nav ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    font-size: 1.2rem;
+}
+.nav a{
+    color: inherit;
+    text-decoration: none;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: .25rem;
+}
+.nav li.active{
+    background-color:#00008B ;
+}
+
+.nav li:hover{
+    background-color:#1E90FF ;
+}
+
+
+
+
+
+
+
+
+

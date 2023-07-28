@@ -1,0 +1,57 @@
+
+.phonebook-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .input-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .input-text {
+    border: none;
+    border-bottom: 1px solid #ccc;
+    padding: 8px 12px;
+    font-size: 16px;
+    color: #333;
+    width: 200px;
+    box-sizing: border-box;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .save-button,
+  .cancel-button {
+    margin: 0 5px;
+    padding: 8px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .cancel-button {
+    background-color: #dc3545;
+  }
+  
+  /* Remove bullet points from the list of saved phone books */
+  .saved-phone-books {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .saved-entry {
+    background-color: #f0f0f0;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+  }

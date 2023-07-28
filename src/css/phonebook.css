@@ -1,0 +1,87 @@
+
+h2 {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.filter-container {
+  margin-bottom: 10px;
+}
+
+label {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+input[type="text"] {
+  border: none; /* Remove the border */
+  border-bottom: 1px solid #ccc;
+  border-radius: 0; /* Remove border radius */
+  padding: 8px 12px;
+  font-size: 16px;
+  color: #333;
+}
+
+ul.contact-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul.contact-list li {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #f9f9f9;
+  font-size: 16px;
+  color: #333;
+}
+
+ul.contact-list li strong {
+  color: #0066cc;
+}
+
+.phonebook-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.filter-container {
+  display: flex;
+  align-items: center;
+}
+
+.select-input {
+  border: none;
+  border-bottom: 1px solid #ccc;
+  border-radius: 0;
+  padding: 8px 12px;
+  font-size: 16px;
+  color: #333;
+  margin-right: 10px;
+  width: 200px;
+  box-sizing: border-box;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+.contact-list {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.contact-list li {
+  margin: 5px 0;
+}
+
+.saved-entry {
+  background-color: #f0f0f0;
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 5px;
+}
